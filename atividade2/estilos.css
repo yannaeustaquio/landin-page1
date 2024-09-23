@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+topo {
+
+    display: flex;
+    background-size: cover;
+    background-image: url(/atividade2/logo.PNG);
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.paragrafo {
+    text-align: center;
+}
+
+.botao {
+    text-align: center;
+}
+
+.pa2 {
+    text-align: center;
+}
+
+.itens {    
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
