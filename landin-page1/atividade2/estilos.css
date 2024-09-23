@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #000;
+}
+
+.topo .logotipo{
+    background-image: url('imagens/logo.PNG'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    padding: 20px;
+    position: relative; 
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: absolute; /* Posição absoluta para colocar o texto sobre a imagem */
+    top: 50%; /* Alinha verticalmente no meio */
+    left: 50%; /* Alinha horizontalmente no meio */
+    transform: translate(-50%, -50%); /* Centraliza */
+    color: white; /* Define a cor do texto */
+}
+.text{
+    margin-top: 0;
+    font-size: 2em;;
+}
+.paragrafo{
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+.botao{
+    background-color: white;
+    color: #00a860;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; 
+    margin-top: 20px;
+}
+.container {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 700px;
+}
+
+.icons {
+    width: 130px;
+    height: auto;
+}
